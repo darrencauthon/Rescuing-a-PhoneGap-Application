@@ -225,7 +225,13 @@ A call that takes 250 milliseconds more:
 !SLIDE bullets
 # Tip #9 #
 
-* Don't try to pull in your views from the web dynamically.
+* Don't Be Cute.
+
+!SLIDE
+# For example #
+
+* This app was written to pull its views in from the server the first time it was run.
+* Guesses to potential problems???
 
 !SLIDE bullets
 # Tip #10 #
@@ -234,7 +240,7 @@ A call that takes 250 milliseconds more:
 
 
 !SLIDE bullets
-# Tip #10 #
+# Tip #11 #
 
 * Adjust your attitude.
 
