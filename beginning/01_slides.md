@@ -6,6 +6,7 @@
 
 * Darren Cauthon
 * Computer Programmer
+* Infinite Fortress
 * Kansas City
 * Ruby / JS / C#
 * (but mostly Ruby)

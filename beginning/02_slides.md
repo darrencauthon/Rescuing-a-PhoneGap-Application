@@ -44,9 +44,9 @@
 # Sounds great in theory, but what about in practice? #
 
 !SLIDE bullets incremental
-# Once Upon a Time... #
+# Start of my story... #
 
-* a client had an idea...
+* A company had an idea...
 * to replace paper-based inspection forms...
 * with a mobile app...
 * that gathered data & pictures for remote inspectors.
@@ -54,7 +54,7 @@
 !SLIDE bullets incremental
 # In Walks the Hero #
 
-* A developer with lots of web app experience...
+* An experienced Rails developer...
 * ... but no native app experience...
 * says "Hey, let's use Phone Gap!"
 
@@ -68,15 +68,15 @@
 * JQuery Mobile BETA...
 
 <!SLIDE center>
-# He Declares... #
-# This Will Work! #
-![Features](king.png)
+# Prepped for success! #
+* Cutting-edge tools
+* Web work by web devs
+* Preaching agile
 
 <!SLIDE center>
-# But It Doesn't Work #
-# The App Sinks #
-# He's Fired #
-![Features](vertical.png)
+# Utter Failure #
+# Months Pass, Dev Hides the App #
+# It Does Not Work #
 
 !SLIDE bullets incremental
 # Issues with the app included #
