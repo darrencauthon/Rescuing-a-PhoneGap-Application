@@ -61,22 +61,29 @@
 !SLIDE bullets incremental
 # Development Starts #
 
-* Developer sets up everything he knows...
 * Rails "RESTful" web backend...
 * Coffeescript, HAML compilers...
 * Backbone.JS, Jasmine tests...
 * JQuery Mobile BETA...
 
-<!SLIDE center>
+!SLIDE bullets incremental
 # Prepped for success! #
-* Cutting-edge tools
-* Web work by web devs
-* Preaching agile
 
-<!SLIDE center>
-# Utter Failure #
-# Months Pass, Dev Hides the App #
-# It Does Not Work #
+* All the current dev hotness
+* Web work by experienced web devs
+* Agile agile agile agile
+
+!SLIDE bullets incremental
+# Work starts #
+* Results slow, promises increase
+* No delivery on the mobile apps
+* Demand for more paid hours.
+* Missed deadlines.
+
+!SLIDE bullets incremental
+# Delivery #
+* 
+* (this slide intentionally left blank)
 
 !SLIDE bullets incremental
 # Issues with the app included #
@@ -92,7 +99,7 @@
 * Unexpected app crashes.
 * Sudden blank pages.
 * Weird page zooming.
-* Caused uncontrollable bursts of anger from users.
+* Resetting the app required reinstall.
 
 !SLIDE bullets incremental
 # I am asked to rescue the app #
@@ -103,11 +110,23 @@
 * Months and months of fixes & rework.
 
 !SLIDE bullets incremental
-# Project Enters Pilot #
+# Project Lanches #
+![Features](proof1.jpg)
+
+!SLIDE bullets incremental
+# Project Lanches #
+![Features](proof2.jpg)
+
+!SLIDE bullets incremental
+# Project Lanches #
+![Features](proof3.jpg)
+
+!SLIDE bullets incremental
+# Project Lanches #
+![Features](proof4.jpg)
 
 !SLIDE bullets incremental
 # Let's Go Back #
-
 * For all of the promises of PhoneGap, what happened?
 
 <!SLIDE center>
@@ -136,7 +155,6 @@
 # Access to Native Phone Features #
 ![Features](features.png)
 
-
 !SLIDE bullets incremental
 # Oh really? #
 
@@ -145,7 +163,7 @@
 * Had issues with file-access support across different devices.
 
 <!SLIDE center>
-# Still fighting this... #
+# It never stopped... #
 ![Features](text_message.png)
 
 <!SLIDE center>
@@ -156,36 +174,42 @@
 # Oh really? #
 
 * We used PhoneGap Build for a while, but...
-* Once we required SSL for logins, we had to switch to using XCode to produce builds.
-
-<!SLIDE center>
-# Used for real apps #
-![Features](real_apps.png)
+* SSL logins required XCode.
 
 !SLIDE bullets incremental
-# Yes! #
+* What's the difference between a lawyer and a programmer?
+* A lawyer will show you the fine print.
 
-* Despite the issues, we were still able to make it work.
-* Have to learn how to play to PhoneGap's strengths and avoid the weaknesses.
+!SLIDE bullets incremental
+# Let's Be Honest #
+* Nothing is free.
+* We push our tech as if it was.
+
+!SLIDE bullets incremental
+# Not This Time
 
 !SLIDE bullets
 # Tip #1 #
 
-* Acknowledge that smartphones are nowhere near as powerful as desktops.
+* Acknowledge that smartphones are not desktops.
 
 !SLIDE bullets
 # Tip #2 #
 
 * Avoid use of heavy frameworks.
-* (Backbone.js, Knockout, etc.)
+* (Backbone.js, Knockout, Ember, etc.)
 
 !SLIDE bullets
 # Tip #3 #
+* Watch for web security issues.
+
+!SLIDE bullets
+# Tip #4 #
 
 ##Avoid "fancy" CSS or advanced rendering.
 
 !SLIDE
-# Tip #4 #
+# Tip #5 #
 
 ##A fast response to a slow process beats a slow response to a fast process.
 
@@ -203,27 +227,27 @@ A call that takes 250 milliseconds more:
     setTimeout((()-> methodThatTakesFiveSeconds()), 250)
 
 !SLIDE bullets
-# Tip #5 #
+# Tip #6 #
 
 * Do not expect the screen to update just because you updated the DOM.
 
 !SLIDE bullets
-# Tip #6 #
+# Tip #7 #
 
 * Avoid DOM manipulation as much as possible.
 
 !SLIDE bullets
-# Tip #7 #
+# Tip #8 #
 
 * Test on actual mobile devices daily.
 
 !SLIDE bullets
-# Tip #8 #
+# Tip #9 #
 
 * Early in development, find out how to disable every mobile-web browser feature.
 
 !SLIDE bullets
-# Tip #9 #
+# Tip #10 #
 
 * Don't Be Cute.
 
@@ -231,13 +255,12 @@ A call that takes 250 milliseconds more:
 # For example #
 
 * This app was written to pull its views in from the server the first time it was run.
-* Guesses to potential problems???
+* Guess what happened next?
 
 !SLIDE bullets
 # Tip #10 #
 
 * Don't test through the view.
-
 
 !SLIDE bullets
 # Tip #11 #
